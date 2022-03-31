@@ -1,5 +1,6 @@
 export type HouseType={
-    buildedAt:number
+    id?:number
+    buildAt:number
     repaired:boolean
     address:AddressType
 
