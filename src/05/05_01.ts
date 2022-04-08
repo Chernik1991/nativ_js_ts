@@ -65,9 +65,6 @@ const student:StudentType={
 
 }
 
-
-}
-
 export const getStreetsTitleOfGovernmentsBuildings= (buildings:Array<GovernmentBuildingType>)=>{
     return buildings.map(b=>b.address.street.title)
 }
